@@ -1,0 +1,169 @@
+/* Reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #002f5e, #d64527);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+
+/* Bọc toàn bộ nội dung */
+
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+}
+
+
+/* Container chính */
+
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+
+/* Thẻ tiêu đề nhỏ */
+
+.tag {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+
+/* Tiêu đề */
+
+h1 {
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+
+/* Phần mô tả */
+
+.description {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+
+/* Thống kê */
+
+.stats {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+
+/* Dịch vụ */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.service-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 150px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+/* Lựa chọn cá nhân & doanh nghiệp */
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.option-card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+
+/* Nút bấm */
+
+.btn {
+    display: block;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: #ffffff;
+    color: #002f5e;
+}
+
+.btn.secondary {
+    background: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.status {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.footer-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
